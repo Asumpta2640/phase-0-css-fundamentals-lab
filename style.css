@@ -3,3 +3,41 @@ body {
   height: 100%;
   margin: 0;
 }
+h1{
+  color: red;
+  text-align: center;
+}
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+nav a{
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: grey;
+  text-decoration: none;
+  color: white;
+}
+figcaption{
+  font-size: smaller;
+  text-align: center;
+}
+#featured-property{
+  width: 800px;
+  margin: 10px auto;
+  text-align: center;
+}
+#details> div{
+  float: left;
+  width: 25%;
+  background-color: #f0f0f0;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 10px;
+}
+#details::after{
+  content: "";
+  display: table;
+  clear: both;
+}
